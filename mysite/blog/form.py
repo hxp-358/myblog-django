@@ -1,4 +1,5 @@
-from django import forms
+#from django import forms
+'''
 class EmailPostForm(forms.Form):
     """docstring for EmailPostForm"""
     name=forms.CharField(max_length=25)
@@ -6,3 +7,4 @@ class EmailPostForm(forms.Form):
     to =forms.EmailField()
     comments =forms.CharField(required=False,widget=forms.Textarea)
     
+'''
